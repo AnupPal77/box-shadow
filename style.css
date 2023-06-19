@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    background-color: rgb(169, 169, 242);
+    width: 100%;
+
+}
+
+.box{
+    height: 460px;
+    width: 300px;
+    border-radius: 40px;
+    background-color: white;
+    position: relative;
+    top:50%;
+    overflow: hidden;
+    left: 50%;
+    border: none;
+    z-index: 999;
+    transform: translate(-50%, -50%);
+    box-shadow: -22px 26px 60px 2px rgba(25, 23, 23, 0.784),4px 4px 40px rgba(0, 0, 0, 0.416),inset 0px -45px 20px rgba(128, 128, 128, 0.444);
+}
+.box h1{
+    position: absolute;
+    top: 3%;
+    color: rgb(29, 24, 24);
+    left:13% ;
+    font-size: 28px;
+   font-family:personal services ;
+   /* text-align: center; */
+}
+.overlay{
+    
+    border: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: inset 30px -20px 40px 2px rgba(38, 36, 36, 0.724),inset -5px 0px 10px rgba(128, 128, 128, 0.761);
+
+}
+.box img{
+    height:300px ;
+    position: absolute;
+    top: 15%;
+
+    left:-28% ;
+    box-shadow:inset 40px -20px 40px rgba(25, 23, 23, 0.45) ;
+   z-index: -9999;
+    font-family:personal services ;
+    box-shadow: inset 30px -20px 40px 2px rgba(38, 36, 36, 0.724),inset -5px 0px 10px rgba(128, 128, 128, 0.761);
+
+}
+.text{
+    height: 25px;
+    width: 200px;
+    /* background-color: rgb(226, 226, 226); */
+    position: absolute;
+    border-radius: 4px;
+    /* box-shadow: inset 3px 2px 3px rgba(63, 63, 62, 0.905),inset -2px -3px 6px rgba(62, 61, 53, 0.696); */
+    bottom: 11%;
+    left: 17%;
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+}
+.text i{
+    background-color: rgb(255, 248, 248);
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: inset 3px -2px 5px 2px rgba(38, 36, 36, 0.73),inset -3px 0px 5px rgba(128, 128, 128, 0),-5px 3px 10px 2px rgba(25, 23, 23, 0.407),4px 4px 10px rgba(0, 0, 0, 0.399),inset 0px -45px 0px rgba(128, 128, 128, 0);
+   
+}
